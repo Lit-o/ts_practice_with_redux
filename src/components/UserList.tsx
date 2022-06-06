@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
 import { useActions } from '../hooks/useAction';
-// import { useSelector } from 'react-redux';
 import { useSelectorTyped } from '../hooks/useSelectorTyped';
-// import { fetchUsers } from '../store/action-creators/user';
-
 
 
 // можно было хук не создавать. Просто параметру state в useSelector задать тип RootState
