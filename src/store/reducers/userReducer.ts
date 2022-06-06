@@ -6,6 +6,7 @@ const initialState: UserState = {
     loading: false,
     error: null
 }
+// можно было хук не создавать. Просто параметру state в useSelector задать тип RootState
 
 export const userReducer = (state = initialState, action: UserAction): UserState => {
     switch (action.type) {
