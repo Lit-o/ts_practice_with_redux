@@ -7,7 +7,7 @@ const initialState: UserState = {
     error: null
 }
 
-export const useReducer = (state = initialState, action: UserAction): UserState => {
+export const userReducer = (state = initialState, action: UserAction): UserState => {
     switch (action.type) {
         case UserActionTypes.FETCH_USERS:
             return {
